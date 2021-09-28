@@ -28,7 +28,6 @@ $routes->group("api", function ($routes) {
     $routes->post("login", "Admin::login");
     $routes->get("profile", "Admin::details");
 });
-
 /*
  * --------------------------------------------------------------------
  * Route Definitions
